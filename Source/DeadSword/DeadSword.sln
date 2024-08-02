@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadSword", "DeadSword.csproj", "{2A59CC29-4196-4ACF-B3DE-A05A90134301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A59CC29-4196-4ACF-B3DE-A05A90134301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A59CC29-4196-4ACF-B3DE-A05A90134301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A59CC29-4196-4ACF-B3DE-A05A90134301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A59CC29-4196-4ACF-B3DE-A05A90134301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BD6C322-A081-4CC6-AA6A-6DF4DE40D18E}
+	EndGlobalSection
+EndGlobal

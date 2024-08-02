@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef>
+    <defName>DeadSword</defName> <!-- ID-->
+    <label>dead sword</label>  <!-- 物品名-->
+    <category>Item</category> <!--分类-->
+    <thingClass>ThingWithComps</thingClass> <!--物体Class-->
+    <drawerType>MapMeshOnly</drawerType><!--渲染相关-->
+    <drawGUIOverlay>true</drawGUIOverlay><!--渲染相关-->
+    <altitudeLayer>Item</altitudeLayer><!--渲染相关-->
+    <alwaysHaulable>true</alwaysHaulable><!--渲染相关-->
+    <tickerType>Never</tickerType>
+    <equipmentType>Primary</equipmentType><!--指定可装备为武器-->
+    <useHitPoints>true</useHitPoints>
+    <pathCost>14</pathCost>
+    <selectable>true</selectable>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
+    <description>The ancient weapon of kings, the longsword can be used for slashing or stabbing.</description><!--描述-->
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Weapon/sword</texPath>   <!--贴图位置-->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <tradeability>None</tradeability>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+      <li>LongSword</li>
+    </weaponTags>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="DS.CompProperties_Dead">
+        <amount>1000</amount>
+        </li>
+    </comps>
+  </ThingDef>
+</Defs>
